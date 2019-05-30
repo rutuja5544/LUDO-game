@@ -1,0 +1,173 @@
+	*,
+	*:before,
+	*:after 
+	{
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+	}
+
+	.clearfix::after 
+	{
+    clear: both;
+    content: "";
+    display: table;
+	}
+
+	.container {    
+  width: 500px;    
+  height: 500px;    
+  margin: auto;    
+  margin-top: 80px;
+  border:1px solid;
+}
+.row1,
+.row3 {    
+  width: 100%;    
+  height: 40%;
+  border:1px solid;
+} 
+.row2 {    
+  width: 100%;    
+  height: 20%;
+  border:1px solid;
+
+} 
+.row1-col1,
+.row1-col3,
+.row3-col1,
+.row3-col3 {    
+  height: 100%;    
+  width: 40%;
+  border: 1px solid;
+} 
+
+.row1-col2,
+.row3-col2 
+{    
+  height: 100%;    
+  width: 20%;
+  border: 1px solid;
+  float: left;
+}
+
+.row2-col2 {
+  /*background-color: black;*/
+  float: left;
+  height: 99.8%;
+  width: 20%;
+}
+
+.one {
+  margin-top: 0.5px;
+  margin-left: 0.8px;
+  float: left;
+  height: 32px;
+  width: 31.5px;
+  border: 1px solid;
+}
+
+.two1 {
+  /*background-color: red;*/
+  height:31%;
+  width: 100%;
+  /*border: 1px solid;*/
+  margin-top: 0.8px;
+  /*margin-left: 0.5px;*/
+  /*float: left; */
+}
+
+.two2{
+  height: 31px;
+  width: 31.5px;
+  border: 1px solid;
+  float: left;
+  margin-left: 0.8px;
+}
+
+.row1-col3,
+.row1-col2,
+.row1-col1,
+.row3-col1,
+.row3-col2,
+.row3-col3,
+.row2-col1,
+.row2-col3
+  {
+    float:left;
+}
+
+.row2-col1,
+.row2-col3 
+{
+  height: 100%;
+  width: 40%;
+  border: 1px solid blue;
+}
+
+.row1-col1 {
+  background-color: red;
+}
+
+.row1-col3 {
+  background-color: blue;
+}
+
+.row3-col1 {
+  background-color: yellow
+}
+
+.row3-col3 {
+  background-color: green;
+}
+
+.row1-col1-red-white,
+.row1-col3-blue-white,
+.row3-col1-yellow-white,
+.row3-col3-green-white {
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 70%;
+  width: 70%;
+  background-color: white;
+}
+
+.red,
+.blue,
+.yellow,
+.green {
+  width: 30%;
+  height: 30%;
+  margin-top: 18px;
+  margin-left: 18px;
+  float: left;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
